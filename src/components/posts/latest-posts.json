@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_posts_latest_posts",
+  "info": {
+    "displayName": "latestPosts",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    }
+  }
+}
